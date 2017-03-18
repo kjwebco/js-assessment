@@ -24,7 +24,6 @@ exports.asyncAnswers = {
 		  			arr.push(data.people[person].name);
 		  		}
 		  		arr.sort();
-		  		console.log(arr);
 		  		resolve(arr);
 	  		});
   		} else{
